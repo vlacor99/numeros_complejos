@@ -12,10 +12,31 @@ Este codigo esta disponible para hacer calculos como :
 
 # EN NUMEROS COMPLEJOS :
 
-sumas,restas,multiplicacion,division,modulo,fase,complejo-polar
+Suma
+Producto
+Resta
+División
+Módulo
+Conjugado
+Conversión entre representaciones polar y cartesiano
+Retornar la fase de un número complejo
 
 # EN MATRICES COMPLEJAS :
 
-sumas,restas,multiplicacion,division,modulo
+Adición de vectores complejos.
+Inversa de vectores complejos.
+Multiplicación escalar de vectores complejos.
+Adición de matrices complejos.
+Inversa de matrices complejos.
+Multiplicación escalar de matrices complejas.
+Matriz transpuesta
+Matriz conjugada
+Matriz adjunta
+Función para calcular la "acción" de una matriz sobre un vector.
+Norma de matrices
+Distancia entrematrices
+Revisar si es unitaria
+Revisar si es Hermitian
+Producto tensor
 
 
