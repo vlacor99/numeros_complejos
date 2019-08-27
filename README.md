@@ -8,8 +8,6 @@ das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual
 
 #   ¿QUE CALCULOS SE HACEN?
 
-Este codigo esta disponible para hacer calculos como :
-
 # EN NUMEROS COMPLEJOS :
 
 Suma,
