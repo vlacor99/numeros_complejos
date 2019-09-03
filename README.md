@@ -8,7 +8,7 @@ das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual
 
 # EJEMPLO:
 1) descargar todos los codigos en una misma carpeta
-![arc1carp](https://user-images.githubusercontent.com/54039061/64200641-91301b80-ce52-11e9-9b65-9ee0c38fd12e.png)
+![arc1carp](https://user-images.githubusercontent.com/54039061/64201722-f1c05800-ce54-11e9-8707-976f049aa357.png)
 2) click en tecla windows
 3) buscar idle
 ![img2](https://user-images.githubusercontent.com/54039061/64200892-0865af80-ce53-11e9-8b5c-fddea35ed343.png)
