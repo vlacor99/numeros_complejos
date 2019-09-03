@@ -12,8 +12,8 @@ das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual
 3) buscar idle
 4) al abrirlo en el shell escribir import y el archivo que desea utilizar
 5) ejemplo : Quiero utilizar la suma de complejos 
-6) escribi en el shell Suma_Resta((3.2),(5,1),1)
-7) para saber que utlizar se lee la describcion de los codigos
+6) escribir en el shell Suma_Resta((3.2),(5,1),1)
+7) para saber que utlizar se lee la descripcion de los codigos
 
 #   ¿QUE CALCULOS SE HACEN?
 
