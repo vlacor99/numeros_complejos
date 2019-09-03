@@ -30,10 +30,10 @@ despues dar f5
 3) Resta : resta dos numeros complejos
 ![img5](https://user-images.githubusercontent.com/54039061/64201600-ae65e980-ce54-11e9-89b8-e86ffe8ee638.png)
 4) División division de dos numeros complejos
-5)Módulo : saca el modulo de un numero complejo
-6)Conjugado : coloca la parte imaginaria de un numero complejo negativa
-7)Conversión entre representaciones polar y cartesiano : pasa un numero de polar a cartesiano
-8)Retornar la fase de un número complejo 
+5) Módulo : saca el modulo de un numero complejo
+6) Conjugado : coloca la parte imaginaria de un numero complejo negativa
+7) Conversión entre representaciones polar y cartesiano : pasa un numero de polar a cartesiano
+8) Retornar la fase de un número complejo 
 
 # EN MATRICES COMPLEJAS :
 
