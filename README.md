@@ -25,15 +25,15 @@ despues dar f5
 
 # EN NUMEROS COMPLEJOS :
 
-Suma,
-Producto ,
-Resta ,
+1)Suma
+2)Producto ,
+3)Resta ,
 ![img5](https://user-images.githubusercontent.com/54039061/64201600-ae65e980-ce54-11e9-89b8-e86ffe8ee638.png)
-División ,
-Módulo ,
-Conjugado ,
-Conversión entre representaciones polar y cartesiano ,
-Retornar la fase de un número complejo ,
+4)División ,
+5)Módulo ,
+6)Conjugado ,
+7)Conversión entre representaciones polar y cartesiano ,
+8)Retornar la fase de un número complejo ,
 
 # EN MATRICES COMPLEJAS :
 
