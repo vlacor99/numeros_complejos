@@ -19,9 +19,29 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(Calculadora_Quantica.Complejos_Polar((3,4)),(5,0.9272952180016122))
     def test_fase(self):
         self.assertEqual(Calculadora_Quantica.Fase((3,6)),1.1071487177940904)
-    def test_sum_mat(self):
+    def test_sum_vec(self):
         self.assertEqual(Calculadora_Quantica.Sum_Res_Mat([[(1,2),(2,3),(3,4)]],[[(2,4),(4,6),(6,8)]],1),[[(3,6),(6,9),(9,12)]])
-    def test_res_mat(self):
+    def test_res_vec(self):
         self.assertEqual(Calculadora_Quantica.Sum_Res_Mat([[(1,2),(2,3),(3,4)]],[[(2,4),(4,6),(6,8)]],0),[[(-1,-2),(-2,-3),(-3,-4)]])
+    def test_mul_esc_vecC(self):
+        self.assertEqual(Calculadora_Quantica.Mult_Vect_Esc([(2,3),(4,5),(6,7)],5),[(10,15),(20,25),(30,35)])
+    def test_mul_esc_matC(self):
+        self.assertEqual(Calculadora_Quantica.Mult_Mat_Esc([[(2,3),(4,5),(6,7)],[(1,3),(2,5),(8,7)],[(12,3),(24,5),(32,7)]],5),([[(10,15),(20,25),(30,35)],[(5,15),(10,25),(40,35)],[(60,15),(120,25),(160,35)]]))
+    def test_sum_mat(self):
+        self.assertEqual(Calculadora_Quantica.Sum_Res_Mat([[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)]],[[(2,4),(4,6),(6,8)],[(2,4),(4,6),(6,8)],[(2,4),(4,6),(6,8)]],1),[[(3,6),(6,9),(9,12)],[(3,6),(6,9),(9,12)],[(3,6),(6,9),(9,12)]])
+    def test_res_mat(self):
+        self.assertEqual(Calculadora_Quantica.Sum_Res_Mat([[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)]],[[(2,4),(4,6),(6,8)],[(2,4),(4,6),(6,8)],[(2,4),(4,6),(6,8)]],0),[[(-1,-2),(-2,-3),(-3,-4)],[(-1,-2),(-2,-3),(-3,-4)],[(-1,-2),(-2,-3),(-3,-4)]])
+    def test_mat_transpuesta(self):
+        self.assertEqual(Calculadora_Quantica.Mat_Trans([[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)]]),[[(1, 2), (1, 2)], [(2, 3), (2, 3)], [(3, 4), (3, 4)]])
+    def test_mat_conjugada(self):
+        self.assertEqual(Calculadora_Quantica.Mat_Conjugada([[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)]]),[[(1, -2), (2, -3), (3, -4)], [(1, -2), (2, -3), (3, -4)]])
+    def test_mat_adjunta(self):
+        self.assertEqual(Calculadora_Quantica.Mat_Adjunta([[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)]]),[[(1, -2), (1, -2)], [(2, -3), (2, -3)], [(3, -4), (3, -4)]])
+    def test_accion(self):
+        self.assertEqual(Calculadora_Quantica.Accion([[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)]],[(2,3),(4,5),(6,7)]),[[(-21, 74)], [(-21, 74)]])
+    def test_norma_mat(self):
+        self.assertEqual(Calculadora_Quantica.Norma_Mat([[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)]]),5.291502622129181)
+    def distancia_matrices(self):
+        self.assertEqual(Calculadora_Quantica.Dist_Matriz([[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)]],[[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)]]),0)
 if __name__== '__main__':
     unittest.main()
