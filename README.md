@@ -28,7 +28,6 @@ despues dar f5
 1) Suma : suma dos numeros complejos
 2) Producto : el producto de dos numeros complejos
 3) Resta : resta dos numeros complejos
-![img5](https://user-images.githubusercontent.com/54039061/64201600-ae65e980-ce54-11e9-89b8-e86ffe8ee638.png)
 4) División division de dos numeros complejos
 5) Módulo : saca el modulo de un numero complejo
 6) Conjugado : coloca la parte imaginaria de un numero complejo negativa
@@ -53,4 +52,11 @@ Revisar si es unitaria ,
 Revisar si es Hermitian ,
 Producto tensor .
 
+# PRUEBAS EN UNITTEST
 
+Se utilizan por medio de una libretria llamada unittest la cual verifica si los casos de prueba son congruentes
+de caso contrario a que no funcionen este mandara un rojito el cual sera un error en el programa.
+![img5](https://user-images.githubusercontent.com/54039061/64201600-ae65e980-ce54-11e9-89b8-e86ffe8ee638.png)
+
+# HECHO POR :
+# VLADIMIR CORREA ARROYAVE
