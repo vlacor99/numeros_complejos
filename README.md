@@ -28,6 +28,7 @@ despues dar f5
 Suma,
 Producto ,
 Resta ,
+![img5](https://user-images.githubusercontent.com/54039061/64201600-ae65e980-ce54-11e9-89b8-e86ffe8ee638.png)
 División ,
 Módulo ,
 Conjugado ,
