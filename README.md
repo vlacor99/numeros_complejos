@@ -9,6 +9,7 @@ das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual
 # EJEMPLO:
 1) descargar todos los codigos en una misma carpeta
 [![license](D:\CNYT)
+https://raw.githubusercontent.com/usuario/repositorio/rama/ruta/al/asset
 2) click en tecla windows
 3) buscar idle
 4) al abrirlo en el shell escribir import y el archivo que desea utilizar
