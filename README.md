@@ -17,9 +17,10 @@ das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual
 ![img4](https://user-images.githubusercontent.com/54039061/64201219-c5f0a280-ce53-11e9-8aa4-0ba00ca7661b.png)
 despues dar f5
 5) ejemplo : Quiero utilizar la suma de complejos 
-
 6) escribir en el shell Suma_Resta((3.2),(5,1),1)
 7) para saber que utilizar se lee la descripcion de los codigos
+![IMG7](https://user-images.githubusercontent.com/54039061/64202394-a3ac5400-ce56-11e9-8e5d-72c10bb1f3be.png)
+
 
 #   ¿QUE CALCULOS SE HACEN?
 
