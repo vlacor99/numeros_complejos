@@ -36,21 +36,21 @@ das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual
 
 # EN MATRICES COMPLEJAS :
 
-Adición de vectores complejos ,
-Inversa de vectores complejos ,
-Multiplicación escalar de vectores complejos ,
-Adición de matrices complejos ,
-Inversa de matrices complejos ,
-Multiplicación escalar de matrices complejas ,
-Matriz transpuesta ,
-Matriz conjugada ,
-Matriz adjunta ,
-Función para calcular la "acción" de una matriz sobre un vector ,
-Norma de matrices ,
-Distancia entrematrices ,
-Revisar si es unitaria ,
-Revisar si es Hermitian ,
-Producto tensor .
+1) Adición de vectores complejos 
+2) Inversa de vectores complejos 
+3) Multiplicación escalar de vectores complejos 
+4) Adición de matrices complejos 
+5) Inversa de matrices complejos 
+6) Multiplicación escalar de matrices complejas 
+7) Matriz transpuesta 
+8) Matriz conjugada 
+9) Matriz adjunta 
+10) Función para calcular la "acción" de una matriz sobre un vector 
+11) Norma de matrices 
+12) Distancia entrematrices 
+13) Revisar si es unitaria 
+14) Revisar si es Hermitian 
+15) Producto tensor .
 
 # PRUEBAS EN UNITTEST
 
