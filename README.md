@@ -12,10 +12,9 @@ das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual
 2) click en tecla windows
 3) buscar idle
 ![img2](https://user-images.githubusercontent.com/54039061/64200892-0865af80-ce53-11e9-8b5c-fddea35ed343.png)
-4) al abrirlo hacer lo siguiente
+4) al abrirlo hacer lo siguiente,despues dar f5
 ![im3](https://user-images.githubusercontent.com/54039061/64201017-44007980-ce53-11e9-93dc-c48f16380a80.png)
 ![img4](https://user-images.githubusercontent.com/54039061/64201219-c5f0a280-ce53-11e9-8aa4-0ba00ca7661b.png)
-despues dar f5
 5) ejemplo : Quiero utilizar la suma de complejos 
 6) escribir en el shell Suma_Resta((3.2),(5,1),1)
 7) para saber que utilizar se lee la descripcion de los codigos
