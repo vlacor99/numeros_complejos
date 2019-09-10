@@ -54,13 +54,7 @@ das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual
 ![123](https://user-images.githubusercontent.com/54039061/64634003-e5427f00-d3c1-11e9-8117-eea94ad87551.png)
 6) buscar idle
 ![img2](https://user-images.githubusercontent.com/54039061/64200892-0865af80-ce53-11e9-8b5c-fddea35ed343.png)
-7) al abrirlo hacer lo siguiente,despues dar f5
-![im3](https://user-images.githubusercontent.com/54039061/64201017-44007980-ce53-11e9-93dc-c48f16380a80.png)
-![img4](https://user-images.githubusercontent.com/54039061/64201219-c5f0a280-ce53-11e9-8aa4-0ba00ca7661b.png)
-8) ejemplo : Quiero utilizar la suma de complejos 
-9) escribir en el shell Suma_Resta((3.2),(5,1),1)
-10) para saber que utilizar se lee la descripcion de los codigos
-![IMG7](https://user-images.githubusercontent.com/54039061/64202394-a3ac5400-ce56-11e9-8e5d-72c10bb1f3be.png)
+
 
 # EJEMPLO EN CODIGO :
 
