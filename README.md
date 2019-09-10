@@ -2,7 +2,9 @@
 
 #   DESCRIPCION :
 
-Codigo hecho por Vladimir Correa Arroyave en Lenguaje Python
+Calculadora De Numeros y Matrices complejas hecho por Vladimir Correa Arroyave en Lenguaje Python.
+
+# SEGUIR LOS SIGUIENTES PASOS
 
 #   ¿QUE CALCULOS SE HACEN?
 
