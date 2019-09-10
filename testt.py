@@ -41,7 +41,9 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(Calculadora_Quantica.Accion([[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)]],[(2,3),(4,5),(6,7)]),[[(-21, 74)], [(-21, 74)]])
     def test_norma_mat(self):
         self.assertEqual(Calculadora_Quantica.Norma_Mat([[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)]]),5.291502622129181)
-    def distancia_matrices(self):
+    def test_distancia_matrices(self):
         self.assertEqual(Calculadora_Quantica.Dist_Matriz([[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)]],[[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)]]),0)
+    def tes_prod_tensor(self):
+        self.assertEqual(Calculadora_Quantica.Prod_tensor(([[(1,3),(1,8)],[(1,2),(3,1)]],[[(2,5),(3,5)],[(4,6),(2,9)]]),[[(-13, 11), (-12, 14), (-38, 21), (-37, 29)], [(-14, 18), (-25, 15), (-44, 38), (-70, 25)], [(-8, 9), (-7, 11), (1, 17), (4, 18)], [(-8, 14), (-16, 13), (6, 22), (-3, 29)]])
 if __name__== '__main__':
     unittest.main()
