@@ -47,19 +47,20 @@ das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual
 1) Buscar en tu navegador preferido
 ![Captu](https://user-images.githubusercontent.com/54039061/64633306-947e5680-d3c0-11e9-8e63-762808fffc48.PNG)
 2) Buscar la version que se adapte a tu sistema operativo
-![Untitled](https://user-images.githubusercontent.com/54039061/64633455-d7d8c500-d3c0-11e9-8d82-907fa23c0be3.png)
-
-1) descargar todos los codigos en una misma carpeta
+![Untitled](https://user-images.githubusercontent.com/54039061/64633756-706f4500-d3c1-11e9-8375-6b16f17ade22.png)
+3)Descargar
+4) descargar todos los codigos en una misma carpeta
 ![arc1carp](https://user-images.githubusercontent.com/54039061/64201722-f1c05800-ce54-11e9-8707-976f049aa357.png)
-2) click en tecla windows
-3) buscar idle
+5) click en tecla windows
+![123](https://user-images.githubusercontent.com/54039061/64634003-e5427f00-d3c1-11e9-8117-eea94ad87551.png)
+6) buscar idle
 ![img2](https://user-images.githubusercontent.com/54039061/64200892-0865af80-ce53-11e9-8b5c-fddea35ed343.png)
-4) al abrirlo hacer lo siguiente,despues dar f5
+7) al abrirlo hacer lo siguiente,despues dar f5
 ![im3](https://user-images.githubusercontent.com/54039061/64201017-44007980-ce53-11e9-93dc-c48f16380a80.png)
 ![img4](https://user-images.githubusercontent.com/54039061/64201219-c5f0a280-ce53-11e9-8aa4-0ba00ca7661b.png)
-5) ejemplo : Quiero utilizar la suma de complejos 
-6) escribir en el shell Suma_Resta((3.2),(5,1),1)
-7) para saber que utilizar se lee la descripcion de los codigos
+8) ejemplo : Quiero utilizar la suma de complejos 
+9) escribir en el shell Suma_Resta((3.2),(5,1),1)
+10) para saber que utilizar se lee la descripcion de los codigos
 ![IMG7](https://user-images.githubusercontent.com/54039061/64202394-a3ac5400-ce56-11e9-8e5d-72c10bb1f3be.png)
 
 
