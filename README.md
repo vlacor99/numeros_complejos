@@ -58,7 +58,9 @@ das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual
 
 # EJEMPLO EN CODIGO :
 
-from sys import stdin
+```Python
+		
+//from sys import stdin
 from math import *
 
 def Suma_Resta(NumA,NumB,Op):
@@ -88,7 +90,7 @@ POS = Devolvemos una tupla en la cual la posicion [0] nos da la parte real y la 
 4) Suma_Resta((3,5),(4,-7),0)
 # EJEMPLO EN IMAGEN
 ![12345](https://user-images.githubusercontent.com/54039061/64634611-3e5ee280-d3c3-11e9-9141-e9da69e85b9e.PNG)
-
+```
 # PRUEBAS EN UNITTEST
 
 Se utilizan por medio de una libretria llamada unittest la cual verifica si los casos de prueba son congruentes
