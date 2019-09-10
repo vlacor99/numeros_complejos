@@ -225,18 +225,22 @@ POS= Verificamos que sea hermitanea conjugando la transpueesta de la prueba
     fin=conjugate(traspose(prueba))
     return(fin==Mat)
 
-def Prod_tensor(VecA,VecB):
+def Prod_tensor(MatA,MatB):
     """
 PRE= Entran dos matrices VecA y VecB las cuales no importa el tamaño de cada una
 POS= Hallamos el pructo tensor y lo retornamos
     """
-    VecT=[]
-    for i in range(len(VecA)):
-        tempo=[]
-        for j in range(len(VecB)):
-            tempo.append(multiplicacion(VecA[x],VecB[y]))
-        VecT.append(tempo)
-    return VecT 
+    lonA = len(MatA)
+    colA = len(MatA[0])
+    lonB = len(MatB)
+    colB = len(MatB[0])
+    VecT=[[(0,0) for x in range(colA*colB)]for x in range(lonA*lonB)]
+    for i in range(len(VecT)):
+        for j in range(len(VecT[0])):
+            print(MatA[i//lonB][j//lonA])
+            print(MatB[i%lonB][j%lonA])
+            VecT[i][j] = (Multiplicacion(MatA[i//lonB][j//lonA],MatB[i%lonB][j%lonA]))
+    return VecT
 def Prod_Int(VecA,VecB):
     """
 PRE=Entran dos vectores VecA ,VecB los cuales les vamos a hallar el producto interno
