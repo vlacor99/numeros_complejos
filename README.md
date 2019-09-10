@@ -1,25 +1,8 @@
-# CALCULADORA DE NUMEROS Y MATRICES COMPLEJAS:
+# CALCULADORA DE NUMEROS Y MATRICES COMPLEJAS :
 
-# ¿ COMO UTILIZAR EL CODIGO ?
+#   DESCRIPCION :
 
-Esta hecho en lenguaje python 3.7.4 , este codigo esta disponible para versiones 3.7.x , para poder utilizarlo se tiene que descargar
-la version mas reciente la cual esta disponible en https://www.python.org/ , entra en la carpeta donde esta descargado el codigo 
-das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual van a aparecer los resultados de tus calculos.
-
-# EJEMPLO:
-1) descargar todos los codigos en una misma carpeta
-![arc1carp](https://user-images.githubusercontent.com/54039061/64201722-f1c05800-ce54-11e9-8707-976f049aa357.png)
-2) click en tecla windows
-3) buscar idle
-![img2](https://user-images.githubusercontent.com/54039061/64200892-0865af80-ce53-11e9-8b5c-fddea35ed343.png)
-4) al abrirlo hacer lo siguiente,despues dar f5
-![im3](https://user-images.githubusercontent.com/54039061/64201017-44007980-ce53-11e9-93dc-c48f16380a80.png)
-![img4](https://user-images.githubusercontent.com/54039061/64201219-c5f0a280-ce53-11e9-8aa4-0ba00ca7661b.png)
-5) ejemplo : Quiero utilizar la suma de complejos 
-6) escribir en el shell Suma_Resta((3.2),(5,1),1)
-7) para saber que utilizar se lee la descripcion de los codigos
-![IMG7](https://user-images.githubusercontent.com/54039061/64202394-a3ac5400-ce56-11e9-8e5d-72c10bb1f3be.png)
-
+Codigo hecho por Vladimir Correa Arroyave en Lenguaje Python
 
 #   ¿QUE CALCULOS SE HACEN?
 
@@ -51,6 +34,34 @@ das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual
 13) Revisar si es unitaria 
 14) Revisar si es Hermitian 
 15) Producto tensor .
+
+
+# ¿ COMO UTILIZAR EL CODIGO ?
+
+Esta hecho en lenguaje python 3.7.4 , este codigo esta disponible para versiones 3.7.x , para poder utilizarlo se tiene que descargar
+la version mas reciente la cual esta disponible en https://www.python.org/ , entra en la carpeta donde esta descargado el codigo 
+das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual van a aparecer los resultados de tus calculos.
+
+# EJEMPLO :
+# ¿Como Instalar?
+1) Buscar en tu navegador preferido
+![Captu](https://user-images.githubusercontent.com/54039061/64633306-947e5680-d3c0-11e9-8e63-762808fffc48.PNG)
+2) Buscar la version que se adapte a tu sistema operativo
+![Untitled](https://user-images.githubusercontent.com/54039061/64633455-d7d8c500-d3c0-11e9-8d82-907fa23c0be3.png)
+
+1) descargar todos los codigos en una misma carpeta
+![arc1carp](https://user-images.githubusercontent.com/54039061/64201722-f1c05800-ce54-11e9-8707-976f049aa357.png)
+2) click en tecla windows
+3) buscar idle
+![img2](https://user-images.githubusercontent.com/54039061/64200892-0865af80-ce53-11e9-8b5c-fddea35ed343.png)
+4) al abrirlo hacer lo siguiente,despues dar f5
+![im3](https://user-images.githubusercontent.com/54039061/64201017-44007980-ce53-11e9-93dc-c48f16380a80.png)
+![img4](https://user-images.githubusercontent.com/54039061/64201219-c5f0a280-ce53-11e9-8aa4-0ba00ca7661b.png)
+5) ejemplo : Quiero utilizar la suma de complejos 
+6) escribir en el shell Suma_Resta((3.2),(5,1),1)
+7) para saber que utilizar se lee la descripcion de los codigos
+![IMG7](https://user-images.githubusercontent.com/54039061/64202394-a3ac5400-ce56-11e9-8e5d-72c10bb1f3be.png)
+
 
 # PRUEBAS EN UNITTEST
 
