@@ -42,7 +42,6 @@ Esta hecho en lenguaje python 3.7.4 , este codigo esta disponible para versiones
 la version mas reciente la cual esta disponible en https://www.python.org/ , entra en la carpeta donde esta descargado el codigo 
 das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual van a aparecer los resultados de tus calculos.
 
-# EJEMPLO :
 # ¿Como Instalar?
 1) Buscar en tu navegador preferido
 ![Captu](https://user-images.githubusercontent.com/54039061/64633306-947e5680-d3c0-11e9-8e63-762808fffc48.PNG)
@@ -63,6 +62,38 @@ das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual
 10) para saber que utilizar se lee la descripcion de los codigos
 ![IMG7](https://user-images.githubusercontent.com/54039061/64202394-a3ac5400-ce56-11e9-8e5d-72c10bb1f3be.png)
 
+# EJEMPLO EN CODIGO :
+
+from sys import stdin
+from math import *
+
+def Suma_Resta(NumA,NumB,Op):
+    """
+PRE = Nos entran dos tuplas la cuales cada una es un numero imaginario NumA y NumB dentro de ellas la posicion
+      [0] de cada una nos da la parte real y la parte [1] es la parte imaginaria, Ademas nos entra un Op
+      el cual si es "1" hacemos suma entre complejos y si es "0" hacemos la resta entre complejos.
+POS = Devolvemos una tupla en la cual la posicion [0] nos da la parte real y la parte [1] es la parte imaginaria
+    """
+    if Op==1:
+        SumParteR = NumA[0]+NumB[0]
+        SumParteI = NumA[1]+NumB[1]
+    else:
+        SumParteR = NumA[0]-NumB[0]
+        SumParteI = NumA[1]-NumB[1]
+    Respuesta = (SumParteR , SumParteI)
+    return Respuesta
+# PARA UTILIZAR EL CODIGO EN SUMA
+1) Quiero Sumar
+2) NumA = 3+5i
+3) NumB = 4-7i
+4) Suma_Resta((3,5),(4,-7),1)
+# PARA UTILIZAR EL CODIGO EN RESTA
+1) Quiero Restar
+2) NumA = 3+5i
+3) NumB = 4-7i
+4) Suma_Resta((3,5),(4,-7),0)
+# EJEMPLO EN IMAGEN
+![12345](https://user-images.githubusercontent.com/54039061/64634611-3e5ee280-d3c3-11e9-9141-e9da69e85b9e.PNG)
 
 # PRUEBAS EN UNITTEST
 
