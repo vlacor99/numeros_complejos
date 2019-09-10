@@ -222,7 +222,7 @@ POS= Verificamos que sea hermitanea conjugando la transpueesta de la prueba
         for y in range(len(Mat[x])):
             tempo.append(Mat[x][y])
         prueba.append(tempo)
-    fin=conjugate(traspose(prueba))
+    fin=Mat_Conjugada(Mat_Trans(prueba))
     return(fin==Mat)
 
 def Prod_tensor(MatA,MatB):
@@ -237,8 +237,6 @@ POS= Hallamos el pructo tensor y lo retornamos
     VecT=[[(0,0) for x in range(colA*colB)]for x in range(lonA*lonB)]
     for i in range(len(VecT)):
         for j in range(len(VecT[0])):
-            print(MatA[i//lonB][j//lonA])
-            print(MatB[i%lonB][j%lonA])
             VecT[i][j] = (Multiplicacion(MatA[i//lonB][j//lonA],MatB[i%lonB][j%lonA]))
     return VecT
 def Prod_Int(VecA,VecB):
@@ -258,5 +256,8 @@ POS= retornamos (la suma de las partes reales , la suma de las partes imaginaria
 def Norma_Mat(MatA):
     return sqrt(Prod_Int(MatA,MatA)[0])
 def Dist_Matriz(MatA,MatB):
-    return Norma_Mat(Sum_Res_Mat(MatA,Sum_Res_Mat(MatA,MatB,0),1))
+    a=Sum_Res_Mat(MatA,MatB,0)
+##    q=Sum_Res_Mat(MatA,a,1)
+##    print(q)
+    return Norma_Mat(a)
 
