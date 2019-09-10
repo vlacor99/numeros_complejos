@@ -42,8 +42,12 @@ class MyTestCase(unittest.TestCase):
     def test_norma_mat(self):
         self.assertEqual(Calculadora_Quantica.Norma_Mat([[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)]]),5.291502622129181)
     def test_distancia_matrices(self):
-        self.assertEqual(Calculadora_Quantica.Dist_Matriz([[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)]],[[(1,2),(2,3),(3,4)],[(1,2),(2,3),(3,4)]]),0)
-    def tes_prod_tensor(self):
-        self.assertEqual(Calculadora_Quantica.Prod_tensor(([[(1,3),(1,8)],[(1,2),(3,1)]],[[(2,5),(3,5)],[(4,6),(2,9)]]),[[(-13, 11), (-12, 14), (-38, 21), (-37, 29)], [(-14, 18), (-25, 15), (-44, 38), (-70, 25)], [(-8, 9), (-7, 11), (1, 17), (4, 18)], [(-8, 14), (-16, 13), (6, 22), (-3, 29)]])
+        self.assertEqual(Calculadora_Quantica.Dist_Matriz([[(1,0),(2,0)]],[[(1,0),(2,0)]]),0)
+    def test_prod_tensor(self):
+        self.assertEqual(Calculadora_Quantica.Prod_tensor([[(1,2)],[(2,3)],[(3,4)]],[[(1,2)],[(3,4)]]),[[(-3, 4)], [(-5, 10)], [(-4, 7)], [(-6, 17)], [(-5, 10)], [(-7, 24)]])
+    def test_hermitanea(self):
+        self.assertEqual(Calculadora_Quantica.Hermitanea([[(1,3),(1,8)],[(1,2),(3,1)]]),False)
+    def test_unitarea(self):
+        self.assertEqual(Calculadora_Quantica.Unitaria([[(1,3),(1,8)],[(1,2),(3,1)]]),False)
 if __name__== '__main__':
-    unittest.main()
+     unittest.main()
