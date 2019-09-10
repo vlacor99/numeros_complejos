@@ -36,13 +36,9 @@ Codigo hecho por Vladimir Correa Arroyave en Lenguaje Python
 15) Producto tensor .
 
 
-# ¿ COMO UTILIZAR EL CODIGO ?
-
-Esta hecho en lenguaje python 3.7.4 , este codigo esta disponible para versiones 3.7.x , para poder utilizarlo se tiene que descargar
-la version mas reciente la cual esta disponible en https://www.python.org/ , entra en la carpeta donde esta descargado el codigo 
-das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual van a aparecer los resultados de tus calculos.
-
 # ¿Como Instalar?
+0) Esta hecho en lenguaje python 3.7.4 , este codigo esta disponible para versiones 3.7.x , para poder utilizarlo se tiene que descargar
+la version mas reciente la cual esta disponible en https://www.python.org/ .
 1) Buscar en tu navegador preferido
 ![Captu](https://user-images.githubusercontent.com/54039061/64633306-947e5680-d3c0-11e9-8e63-762808fffc48.PNG)
 2) Buscar la version que se adapte a tu sistema operativo
@@ -55,7 +51,7 @@ das doble click izquierdo y alli te entra en la famosa pantalla negra en la cual
 6) buscar idle
 ![img2](https://user-images.githubusercontent.com/54039061/64200892-0865af80-ce53-11e9-8b5c-fddea35ed343.png)
 
-
+# ¿ COMO UTILIZAR EL CODIGO ?
 # EJEMPLO EN CODIGO :
 
 ```Python
