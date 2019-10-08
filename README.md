@@ -96,5 +96,9 @@ Se utilizan por medio de una libretria llamada unittest la cual verifica si los 
 de caso contrario a que no funcionen este mandara un rojito el cual sera un error en el programa.
 ![img5](https://user-images.githubusercontent.com/54039061/64201600-ae65e980-ce54-11e9-89b8-e86ffe8ee638.png)
 
+# CODIGO MARBLES
+
+Este codigo va a simular el orden de un numero x de canicas despues de un numero n de clickscon coeficiente booleano .
+
 # HECHO POR :
 # VLADIMIR CORREA ARROYAVE
