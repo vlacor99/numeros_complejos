@@ -1,5 +1,7 @@
 import unittest
 import Calculadora_Quantica
+import marbles
+
 from math import *
 
 class MyTestCase(unittest.TestCase):
@@ -49,5 +51,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(Calculadora_Quantica.Hermitanea([[(1,3),(1,8)],[(1,2),(3,1)]]),False)
     def test_unitarea(self):
         self.assertEqual(Calculadora_Quantica.Unitaria([[(1,3),(1,8)],[(1,2),(3,1)]]),False)
+    def test_marbles(self):
+        self.assertEqual(marbles.Marbles([[(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(0,0),(1,0),(0,0),(0,0),(0,0),(1,0)],[(0,0),(0,0),(0,0),(1,0),(0,0),(0,0)],[(0,0),(0,0),(1,0),(0,0),(0,0),(0,0)],[(1,0),(0,0),(0,0),(0,0),(1,0),(0,0)]],[(6,0),(2,0),(1,0),(5,0),(3,0),(10,0)],1),[(0, 0), (0, 0), (12, 0), (5, 0), (1, 0), (9, 0)])
 if __name__== '__main__':
      unittest.main()
