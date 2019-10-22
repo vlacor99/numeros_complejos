@@ -1,4 +1,7 @@
 # CALCULADORA DE NUMEROS Y MATRICES COMPLEJAS :
+# SISTEMA CUANTICO DE UNA PARTICULA EN UNA LINEA : 
+# DESCRIPCION : 
+El sistema consiste en una partícula confinada a un conjunto discreto de posiciones en una línea. El simulador debe permitir especificar el número de posiciones y un vector ket de estado asignando las amplitudes.
 # TEST MARBLES :
 #   DESCRIPCION :
 
