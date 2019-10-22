@@ -33,7 +33,7 @@ POS = Devolvemos una tupla en la cual la posicion [0] nos da la parte real y la 
     Respuesta = (SumParteR , SumParteI)
     return Respuesta
 
-def Marbels(matrizAdj, estadoInicial, clicks):
+def Marbles_Booleanos(matrizAdj, estadoInicial, clicks):
     '''Se simula el experimento de  las canicas despues de varios clicks UTILIZANDO suma y resta de numeros imaginarios'''
     while clicks > 0:
         clicks -= 1
@@ -46,9 +46,30 @@ def Marbels(matrizAdj, estadoInicial, clicks):
         estadoInicial  = aux
     return aux
 
+def Marbles_Reales(matrizAdj, estadoInicial, clicks):
+    '''Se simula el experimento de  las canicas despues de varios clicks UTILIZANDO suma y resta de numeros imaginarios'''
+    while clicks > 0:
+        clicks -= 1
+        aux = []
+        for i in range(len(matrizAdj)):
+            sume = (0,0)
+            for j in range(len(estadoInicial)):
+               sume = Suma_Resta(sume,Multiplicacion(estadoInicial[j],matrizAdj[i][j]),1)
+            aux.append(sume)
+        estadoInicial  = aux
+    return aux
+
+
 class MyTestCase(unittest.TestCase):
-    def test_marbles(self):
-        result = Marbels([[(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(0,0),(1,0),(0,0),(0,0),(0,0),(1,0)],[(0,0),(0,0),(0,0),(1,0),(0,0),(0,0)],[(0,0),(0,0),(1,0),(0,0),(0,0),(0,0)],[(1,0),(0,0),(0,0),(0,0),(1,0),(0,0)]],[(6,0),(2,0),(1,0),(5,0),(3,0),(10,0)],1)
+    def test_Marbles_Reales(self):
+        result = Marbles_Reales([[(0,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(1/2,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(1/2,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(0,0),(1/3,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(0,0),(1/3,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(0,0),(1/3,0),(1/3,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(0,0),(0,0),(1/3,0),(0,0),(0,0),(0,0),(0,0),(0,0)]],[(1,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],2)
+        self.assertEqual(result,[(0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.16666666666666666, 0.0), (0.16666666666666666, 0.0), (0.3333333333333333, 0.0), (0.16666666666666666, 0.0)])
+    def test_Marbles_Booleanos(self):
+        result = Marbles_Booleanos([[(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(0,0),(1,0),(0,0),(0,0),(0,0),(1,0)],[(0,0),(0,0),(0,0),(1,0),(0,0),(0,0)],[(0,0),(0,0),(1,0),(0,0),(0,0),(0,0)],[(1,0),(0,0),(0,0),(0,0),(1,0),(0,0)]],[(6,0),(2,0),(1,0),(5,0),(3,0),(10,0)],1)
         self.assertEqual(result,[(0, 0), (0, 0), (12, 0), (5, 0), (1, 0), (9, 0)])
+    def test_Marbles_Complejos(self):
+        result = Marbles_Booleanos([[(6,3),(2,6),(5,5),(1,4),(2,4),(4,3)],[(6,3),(1,1),(2,2),(3,2),(4,1),(5,6)],[(6,3),(5,1),(5,2),(4,4),(2,4),(4,6)],[(6,3),(2,1),(5,2),(1,4),(2,4),(4,6)],[(6,3),(2,1),(5,2),(1,4),(2,4),(4,6)],[(6,3),(2,1),(5,2),(1,4),(2,4),(4,6)]],[(6,2),(2,3),(1,3),(5,2),(3,1),(0,1)],1)
+        self.assertEqual(result,[(2, 108), (41, 71), (44, 110), (23, 95), (23, 95), (23, 95)])
+        
 if __name__== '__main__':
     unittest.main()
