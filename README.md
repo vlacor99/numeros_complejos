@@ -3,6 +3,17 @@
 #   DESCRIPCION :
 
 Calculadora De Numeros y Matrices complejas hecho por Vladimir Correa Arroyave en Lenguaje Python.
+Ademas tenemos Un Gran Simulador de Marbles(Piquis) en el cual depende de los click que se le den este va a ir simulando el movimiento de cierto numero de Marbles
+
+# TEST MARBLES
+![GG](https://user-images.githubusercontent.com/54039061/67326166-c57f9a00-f4db-11e9-96d3-357c62c300b5.PNG)
+
+# EJEMPLO NUMEROS REALES
+# ENTRADA
+([[(0,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(1/2,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(1/2,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(0,0),(1/3,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(0,0),(1/3,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(0,0),(1/3,0),(1/3,0),(0,0),(0,0),(0,0),(0,0),(0,0)],[(0,0),(0,0),(1/3,0),(0,0),(0,0),(0,0),(0,0),(0,0)]],[(1,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0),(0,0)],2)
+
+# SALIDA
+[(0.0, 0.0), (0.0, 0.0), (0.0, 0.0), (0.16666666666666666, 0.0), (0.16666666666666666, 0.0), (0.3333333333333333, 0.0), (0.16666666666666666, 0.0)]
 
 # SEGUIR LOS SIGUIENTES PASOS
 
