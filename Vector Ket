@@ -1,0 +1,64 @@
+from sys import stdin
+
+def Conjugado(Mat):
+    resp = [Mat[0], Mat[1]]
+    result = -1 * resp[1]
+    resp[1] = result
+    return resp[0],resp[1]
+
+def Producto(Mat1,Mat2):
+    resp = (Mat1[0] * Mat2[0]) - (Mat1[1] * Mat2[1])
+    rest = (Mat1[0] * Mat2[1]) + (Mat1[1] * Mat2[0])
+    return (round(resp,4), round(rest,4))
+
+def suma(Mat1, Mat2):
+    resp = Mat1[0] + Mat2[0]
+    rest = Mat1[1] + Mat2[1]
+    return (round(resp,4), round(rest,4))
+
+def multimat(Mat1,Mat2):
+    mat = [[(0,0)]*len(Mat2[0]) for h in range(len(Mat1))]
+    for y in range(len(Mat1)):
+        for j in range(len(Mat2[0])):
+            if len(mat)==1:
+                long=2
+            else:
+                long=len(mat)
+            for z in range(long):
+                mat[y][j]=suma(mat[y][j],producto(Mat1[y][z],Mat2[z][j]))
+    return mat
+
+def matAdjun(Mat):
+    mat=matTrans(matConj(Mat))
+    return mat
+
+def matTrans(Mat):
+    mat=[]
+    for y in range(len(Mat[0])):
+        mat.append([])
+        for x in range(len(Mat)):
+            mat[y].append(Mat[x][y])
+    return mat
+
+def matConj(Mat):
+    mat=[]
+    for y in range(len(Mat)):
+        mat.append([])
+        for x in range(len(Mat[0])):
+            mat[y].append(conj(Mat[y][x]))
+    return mat
+
+def proba(lis,pos):
+    res=(abs((lis[pos-1][0][0])**2+(lis[pos-1][0][1]**2))/((mag(lis))**2))
+    return round(res,4)
+
+def mag(lis):
+    res=0
+    for i in range(len(lis)):
+        res+=abs((lis[i][0][0])**2+(lis[i][0][1])**2)
+    return res**(1/2)
+
+def transi(lis1,lis2):
+    p=(multimat(matAdjun(lis2[1]),lis1[1])[0][0][1])
+    r=(mag(lis1[1])*mag(lis2[1]))
+    return round(p/r,2)
